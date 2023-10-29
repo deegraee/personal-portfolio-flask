@@ -1,0 +1,25 @@
+{
+  "name": "personal-portfolio-flask",
+  "version": "1.0.0",
+  "description": "personal portfolio in flask",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i static/css/styles.css -o static/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deegraee/personal-portfolio-flask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deegraee/personal-portfolio-flask/issues"
+  },
+  "homepage": "https://github.com/deegraee/personal-portfolio-flask#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
